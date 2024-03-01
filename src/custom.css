@@ -1,0 +1,504 @@
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+
+.fridge-list h2, .sections h2,
+.racks h2, .box-grid h2,
+.box h2 {
+  font-family: 'Roboto', sans-serif;
+  /* Roboto is a popular sans-serif font */
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  /* padding-left: 120px; */
+  margin-bottom: 12px;
+  margin-top: -60px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.container ,.box-innergrid {
+  max-width: 800px;
+  margin:  auto;
+  padding: 10px;
+}
+.fridge-list ,
+.box-grid ,.box,.racks,.sections{
+  text-decoration: none;
+  color: #333;
+  height: 700px;
+  width: 900px;
+  font-weight: bold;
+  margin-left: -30px;
+  font-size: 40px;
+  padding: 90px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+/* FRIDGE CSS */
+ /* .fridge-list li  {
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 60px;
+  flex: 1 0 40%;
+  text-align: center;
+} */
+/* .fridge-list li  {
+  text-decoration: none;
+  color: #050000;
+  font-size: 30px; 
+} */
+
+.fridge-list h2{
+  margin-top: -75px;
+}
+ .fridge-list a:hover {
+  background-color: #eee;
+}
+.fridge-list ul {
+  list-style: none;
+  padding: 00px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fridge-list button {
+  margin: 20px;
+  margin-left: 50px;
+  padding: 120px;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  cursor: pointer;
+  background-image: url('https://d29fhpw069ctt2.cloudfront.net/clipart/104785/preview/fridge_preview_93d9.png');
+  background-size: contain; /* Use 'contain' to maintain the aspect ratio and fit the entire image */
+  background-position: center;
+  border: none;
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+.fridge-list button:hover {
+  background-color: #c0c0c0;
+}
+
+/* FRIDGE ANIMATION CSS */
+/* .fridge-list li {
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 20px;
+  flex: 1 0 40%;
+  text-align: center;
+  text-decoration: none;
+  color: #050000;
+  font-size: 16px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.fridge-list li .fridge {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+  transform-origin: left center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.fridge-list li.opened .fridge {
+  transform: rotateY(-90deg);
+}
+
+.fridge-body {
+  background-color: #1abc9c;
+  width: 250px;
+  height: 400px;
+  border-radius: 20px 20px 10px 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.handle {
+  position: absolute;
+  right: 20px;
+  width: 35px;
+  height: 15px;
+  }
+
+.hightlight {
+  width: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  &.top {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    height: 20px;
+    border-radius: 15px;
+    transform: rotate(45deg);
+  }
+  &.bottom {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 300px;
+    border-radius: 15px;
+  }
+}
+
+.shadow-bottom {
+  position: absolute;
+  bottom: 0;
+  height: 12px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+}
+
+.fridge-shadow {
+  width: 300px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 20px auto 0 auto;
+  border-radius: 50%;
+  animation: shrink 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) 3s infinite alternate;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+} */
+
+
+/* SECTION CSS */
+
+/* 
+.sections {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 90px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  
+  transition: background-color 0.3s;
+} */
+.sections button {
+  margin: 6px;
+  margin-left: -40px;
+  padding: 15px;
+  height: 135px;
+  width: 500px;
+  font-size: 30px;
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #f0f0f0, #e0e0e0);
+  transition: background-color 0.3s;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+.sections button:hover {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.sections button:active {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.sections ul {
+  list-style: none;
+  padding-left: 150px;
+  /* padding-top: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.knob {
+  width: 15px;
+  height: 80px;
+  background-color: #7d7e80;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.23);
+  
+}
+
+.button-with-knob {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-with-knob .knob {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 80px;
+  width: 15px;
+  background-color: #6f7072;
+  cursor: pointer;
+  
+
+}
+
+
+
+/* RACKS CSS */
+
+/* 
+.racks {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 90px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  ;
+  transition: background-color 0.3s;
+} */
+.racks button {
+  margin: 0 0 -80px 15px;
+  padding: 20px;
+  height: 400px;
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #f0f0f0, #e0e0e0);
+  transition: background-color 0.3s;
+  width: 73px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+.racks button:hover {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.racks button:active {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+.racks ul {
+  list-style: none;
+  padding-left: 6rem;
+  /* padding-top: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* BOXGRID CSS */
+
+.box-grid button {
+  margin: 4px;
+  padding: 10px;
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #f0f0f0, #e0e0e0);
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+.box-grid button:hover {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.box-grid button:active {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.box-container {
+  padding: 10px;
+  border: 5px solid #868484;
+  display: block;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.box-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  width: 20px;
+  height: 100px;
+  border-top: 5px solid #868484;
+  border-bottom: 5px solid #868484;
+  transform: translateY(-70%) rotate(-360deg);
+  background: linear-gradient(to bottom, #838080, #5f5858);
+  box-shadow: 0 0 10px #000;
+  animation: shine 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 10px #000;
+  }
+  50% {
+    box-shadow: 0 0 20px #747272;
+  }
+  100% {
+    box-shadow: 0 0 10px #d4d3d3;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* BOX CSS */
+.grid-button {
+  margin: 2px;
+  padding: 2px;
+  height: 40px;
+  width: 50px;
+  font-size: small;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+.grid-button:disabled {
+  background-color: #ccc;
+  /* Default color for unoccupied buttons */
+}
+.grid-button:hover {
+  background-color: #f0f0f0;
+}
+.grid-button.selected {
+  background-color: #4caf50;
+  color: white;
+  /* Highlight color for occupied buttons */
+  cursor: not-allowed;
+  /* Green color for occupied buttons */
+}
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+button.active {
+  background-color: #4caf50;
+  /* Green color for the active button */
+  color: #fff;
+  /* White text for better visibility */
+}
+.done-button {
+  margin-left: 320px;
+  padding: 0px;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #f0f0f0, #e0e0e0);
+  transition: background-color 0.3s;
+  display: block;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+.done-button button:hover {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.done-button button:active {
+  background: linear-gradient(to bottom left, #d0d0d0, #969494);
+}
+
+.box-innergrid{
+  height: 550px;
+  width: 600px;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.box-tank {
+  padding: 3px;
+  border: 5px solid #868484;
+  display: block;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+
+
+/* ALL BUTTON CSS */
+
+/* button {
+  margin: 6px;
+  padding: 8px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #050000;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+} */

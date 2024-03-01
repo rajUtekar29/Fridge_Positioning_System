@@ -1,0 +1,167 @@
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+/* ... (Your existing styles) */
+
+.cupboard {
+  margin-bottom: 20px;
+}
+
+.rack {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-row {
+  display: flex;
+}
+
+.box {
+  border: 1px solid #ddd;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.filled {
+  background-color: #66bb6a; /* Green background for filled positions */
+}
+
+.box.empty {
+  background-color: #e0e0e0; /* Grey background for empty positions */
+}
+
+/* ... (Your existing styles) */
+
+.cupboard {
+  margin-bottom: 20px;
+}
+
+.rack {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -2px; /* Adjust for box border spacing */
+}
+
+.box-row {
+  display: flex;
+  margin-bottom: -2px; /* Adjust for box border spacing */
+}
+
+.box {
+  border: 1px solid #ddd;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.filled {
+  background-color: #66bb6a; /* Green background for filled positions */
+}
+
+.box.empty {
+  background-color: #e0e0e0; 
+}
+/* ... (Your existing styles) */
+
+.cupboard {
+  margin-bottom: 20px;
+}
+
+.rack {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-row {
+  display: flex;
+}
+
+.box {
+  border: 1px solid #ddd;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.filled {
+  background-color: #66bb6a; /* Green background for filled positions */
+}
+
+.box.empty {
+  background-color: #e0e0e0; /* Grey background for empty positions */
+}
+
+/*
+
+
+
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+ }
+ 
+ th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+ }
+ 
+ th {
+  background-color: #f2f2f2;
+ } */
+
+
+
+
+ 
+
+/* .product-form { */
+  /* Add any additional styling for your form */
+/* } */
+
+/* Add styling for your table and other elements as needed */
